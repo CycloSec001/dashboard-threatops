@@ -1,0 +1,26 @@
+export const CHART_SIZES = {
+  kpi: {
+    default: { height: 120 },
+    gauge: { height: 180 },
+    sparkline: { height: 140 },
+    rag: { height: 120 },
+    'mini-area': { height: 150 },
+    'mini-bar': { height: 150 },
+    'mini-line': { height: 150 },
+    'rag-indicator': { height: 120 }
+  },
+  gauge: { container: 300, content: 220 },
+  pie: { container: 320, content: 240 },
+  donut: { container: 220, content: 220 },
+  bar: { container: 220, content: 220 },
+  line: { container: 340, content: 260 },
+  area: { container: 350, content: 270 },
+  treemap: { container: 380, content: 300 },
+  relationship: { container: 420, content: 340 },
+  network: { container: 440, content: 360 },
+  scatter: { container: 390, content: 310 },
+  bubble: { container: 390, content: 310 },
+  sparkline: { container: 240, content: 160 },
+  table: { container: 220, content: 320 },
+  default: { container: 220, content: 280 },
+};
